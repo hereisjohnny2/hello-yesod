@@ -1,5 +1,8 @@
 /               HomeR       GET
 
+/sum/#Int/#Int  SumR        GET
+/mult           MultR       GET
+
 /favicon.ico    FavIconR    GET
 /robots.txt     RobotsR     GET
 

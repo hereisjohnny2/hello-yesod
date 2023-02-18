@@ -1,13 +1,15 @@
-{-# OPTIONS_GHC -fno-warn-orphans #-}
-{-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE OverloadedStrings #-}
-module Application where
+{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE ViewPatterns #-}
+{-# OPTIONS_GHC -fno-warn-orphans #-}
 
-import Yesod
+module Application where
 
 import Foundation
 import Handler.Common
 import Handler.Home
+import Handler.Sum
+import Handler.Mult
+import Yesod
 
 mkYesodDispatch "App" resourcesApp
-
