@@ -1,0 +1,6 @@
+/               HomeR       GET
+
+/favicon.ico    FavIconR    GET
+/robots.txt     RobotsR     GET
+
+/static         StaticR     Static staticContent
